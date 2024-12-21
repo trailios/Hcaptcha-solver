@@ -18,7 +18,7 @@ version = re.findall(r'v1\/([A-Za-z0-9]+)\/static', api_js)[1]
 loop = asyncio.get_event_loop()
 asyncio.set_event_loop(loop)
 
-client = Groq(api_key="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")
+client = Groq(api_key="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") # ohh nooo i leaked my key (its free anyways)
 
 session.headers = {
     'accept': '*/*',
