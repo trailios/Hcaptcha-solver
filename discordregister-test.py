@@ -51,11 +51,11 @@ headers = {
 
 json_data = {
     'fingerprint': f'{fingerprint}',
-    'email': 'opsurge.2.orsgss@gmail.com',
-    'username': 'ztailsaosss',
-    'global_name': 'trailiisgay',
-    'password': '1122qqww**?',
-    'invite': "zUevfhuh",
+    'email': '',
+    'username': '',
+    'global_name': 'asdwef',
+    'password': '',
+    'invite': "",
     'consent': True,
     'date_of_birth': '2002-11-05',
     'gift_code_sku_id': None,
@@ -77,7 +77,7 @@ def main():
     randommail = ''.join(random.choices(string.ascii_letters + string.digits, k=5))
     password = ''.join(random.choices(string.ascii_letters + string.digits, k=15))
 
-    json_data["username"] = f"trail.hcap{randommail}"
+    json_data["username"] = f"trailsa{randommail}"
 
     json_data["email"] = f"mak2idx{randommail}@gmail.com"
     json_data["password"] = password
